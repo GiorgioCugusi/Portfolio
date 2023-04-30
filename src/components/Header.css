@@ -1,0 +1,99 @@
+:root {
+    ---primary:  #9BA17B;
+    ---secondary: #CFB997;
+    ---main: #FAD6A5;
+    ---highlight: #61764B;
+    ---accent: #e2a157;
+    ---text: #b16f24; 
+}
+
+
+
+.header-img img {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  .devLogo img {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    border-radius: 50%;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: max-content;
+    min-height: 90vh;
+    position: relative;
+  }
+  
+  .left-header {
+    width: 50%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 0px;
+  }
+  
+  .header-intro {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: auto;
+    justify-content: center;
+    gap: 3%;
+  }
+  
+  .summary-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: auto;
+    margin-top: 10px;
+    height: 100px;
+    gap: 20px;
+  }
+  
+  .right-header {
+    background-color: var(---highlight);
+    width: 50%;
+    min-height: 90vh;
+    display: flex;
+    position: relative;
+    margin-right: 0px;
+  }
+  
+  .devLogo {
+    margin: auto;
+    width: 50%;
+  }
+  
+  .arrow-scroll {
+    position: absolute;
+    margin-bottom: 0px;
+    display: block;
+    bottom: 20px;
+  }
+
+  .some-icons {
+    display: flex;
+    gap: 20px;
+  }
+
+  .social-i {
+    font-size: 20px;
+  }
+
+  .arrow-i {
+    font-size: 50px;
+  }

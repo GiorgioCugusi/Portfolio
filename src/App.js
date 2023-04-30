@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Tech from 'components/Tech';
+import Featured from 'components/Featured';
+import Header from './components/Header';
 
 export const App = () => {
   return (
-    <div>
-      Find me in src/app.js!
-    </div>
+    <>
+      <Header />
+      <Tech />
+      <Featured />
+    </>
   )
 }

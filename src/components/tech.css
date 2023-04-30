@@ -1,0 +1,23 @@
+.tech-section {
+    height: 70vh;
+    background-color: var(---secondary);
+    display: flex;
+  }
+  
+  .tech-desktop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+  }
+  
+  .big-header {
+    font-size: 70px;
+    color: var(---text);
+    display: flex;
+    justify-content: center;
+  }
+  
+  .tech-paragraph {
+    margin-left: 15px;
+  }
