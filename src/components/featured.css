@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
 .project-description{
     display: flex;
     justify-content: center;
@@ -56,4 +60,14 @@
 .project-buttons {
   display: flex;
   gap: 10px;
+}
+
+.black {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 2px 6px 2px 6px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  font-style: normal;
 }
