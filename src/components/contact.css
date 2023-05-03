@@ -1,0 +1,15 @@
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+  }
+  
+  .container {
+    width: 100%;
+  }
+  
+  .mx-auto {
+    margin-left: 15%;
+    margin-right: 15%;
+  }

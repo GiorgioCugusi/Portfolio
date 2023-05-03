@@ -17,3 +17,132 @@ body {
   margin-left: 15%;
   margin-right: 15%;
 }
+
+@media (max-width: 991.98px){
+  .header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+    position: relative;
+    flex-direction: column-reverse;
+  }
+
+  .left-header {
+    width: 50%;
+    min-height: 60vh;
+  }
+
+  .right-header {
+    background-color: var(---highlight);
+    width: 100%;
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  .arrow-scroll {
+  bottom: 5px;
+  }
+
+  .devLogo {
+    width: auto;
+  }
+
+  .tech-desktop {
+    gap: 30px;
+    flex-direction: column;
+  }
+
+  .projects .mx-auto {
+    margin-left: 3%;
+    margin-right: 3%;
+    width: inherit;
+  }
+
+  .articles {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .blog-post-description {
+    align-items: center;
+  }
+
+  .blog-img-container{
+    width: -webkit-fill-available;
+    min-height: 50vh;
+  }
+
+  .blog-post-title {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .skills {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skills-tablet {
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+  }
+
+  .skill-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 5vw;
+    grid-row-gap: 5vh;
+  }
+
+  .contact {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+@media (max-width: 575.98px) {
+  .mx-auto {
+    margin-right: 2vw;
+    margin-left: 2vw;
+  }
+
+  .right-header {
+    display: none;
+  }
+
+  .projects .mx-auto {
+    margin-right: 2vw;
+    margin-left: 2vw;
+    width: fit-content
+  }
+
+  .project-description {
+    flex-direction: column;
+  }
+
+  .project-buttons {
+    flex-direction: column;
+  }
+
+  .project-summary {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+  }
+
+  .project-img-container {
+    width: -webkit-fill-available;
+  }
+
+  .skill-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

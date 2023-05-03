@@ -1,0 +1,17 @@
+.skills {
+    background-color: var(---secondary);
+    min-height: 40vh;
+  }
+  
+  .skill-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 2fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    height: 60%;
+  }
+
+  .skills .big-header {
+    margin: 0;
+  }
